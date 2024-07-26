@@ -4,7 +4,7 @@
   "name": "business-card",
   "content": "",
   "created_at": "2024-07-04 19:21:31",
-  "updated_at": "2024-07-15 15:09:18",
+  "updated_at": "2024-07-25 18:17:09",
   "stick": "",
   "documents": [
     {
@@ -15,12 +15,12 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "eb434b2d0361cebc504a90772dbca13c": 4,
+        "eb434b2d0361cebc504a90772dbca13c": 3,
+        "c8c2c558fac9410d08cd9c984c6e32bd": 3,
         "eb859b95857eb549dcd060c0a776a8f7": 1,
         "b69a0036c187498693d0993be12a5ea5": 1,
         "83750b9ec8e049408701bb76a50ed8f9": 1,
-        "cd55ef37e4214540a233ad188a806cfb": 1,
-        "c8c2c558fac9410d08cd9c984c6e32bd": 4
+        "cd55ef37e4214540a233ad188a806cfb": 2
       },
       "BOM": [
         [
@@ -32,9 +32,9 @@
         ],
         [
           "25X48MM_NFC_ANTENNA",
-          2,
+          1,
           "25X48MM_NFC_ANTENNA",
-          "1,1",
+          "1",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -44,9 +44,9 @@
         ],
         [
           "220nF",
-          2,
+          1,
           "C0603",
-          "C1,C1",
+          "C1",
           {
             "Manufacturer Part": "CL10B224KA8NNNC",
             "Manufacturer": "SAMSUNG(三星)",
@@ -55,22 +55,22 @@
           }
         ],
         [
-          "whiteLEDSMD",
-          1,
-          "LED0805-R-RD",
-          "LED1",
+          "TEST-POINT-PTH-1X1",
+          2,
+          "PKG-TEST-POINT-PTH-1X1",
+          "GND,VOUT",
           {
-            "Manufacturer Part": "KT-0805W",
-            "Manufacturer": "KENTO",
-            "Supplier": "LCSC",
-            "Supplier Part": "C34499"
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
           }
         ],
         [
           "17-21SUYC/TR8",
-          4,
+          3,
           "LED0805-R-RD",
-          "LED1,LED2,LED3,LED4",
+          "LED1,LED2,LED3",
           {
             "Manufacturer Part": "KT-0805黄灯",
             "Manufacturer": "KENTO",
@@ -80,9 +80,9 @@
         ],
         [
           "47Ω",
-          5,
+          3,
           "R0603",
-          "R1,R1,R2,R3,R4",
+          "R1,R2,R3",
           {
             "Manufacturer Part": "0603WAF470JT5E",
             "Manufacturer": "UNI-ROYAL(厚声)",
@@ -91,22 +91,10 @@
           }
         ],
         [
-          "TEST-POINT-PTH-1X1",
-          2,
-          "PKG-TEST-POINT-PTH-1X1",
-          "TP1,TP1",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
           "NT3H2111W0FHKH",
-          2,
+          1,
           "XQFN-8_L1.6-W1.6-P0.50-BL",
-          "U1,U1",
+          "U1",
           {
             "Manufacturer Part": "NT3H2111W0FHKH",
             "Manufacturer": "NXP(恩智浦)",
@@ -115,113 +103,11 @@
           }
         ]
       ],
-      "updateTime": 1721077758,
+      "updateTime": 1721948088,
       "createTime": 1720142491,
       "histories": [],
       "created_at": "2024-07-04 19:21:31",
-      "updated_at": "2024-07-15 15:09:18"
-    },
-    {
-      "uuid": "2bc44a7a447ddbd3262176724950cd0d",
-      "title": "single-led",
-      "description": "",
-      "docType": "1",
-      "master": "",
-      "thumb": "/images/thumb-default.png",
-      "components": {
-        "c34bbdcdd263b720e64d05b3f617b059": 1,
-        "eb434b2d0361cebc504a90772dbca13c": 1,
-        "eb859b95857eb549dcd060c0a776a8f7": 1,
-        "b69a0036c187498693d0993be12a5ea5": 1,
-        "83750b9ec8e049408701bb76a50ed8f9": 1,
-        "cd55ef37e4214540a233ad188a806cfb": 1
-      },
-      "BOM": [
-        [
-          "Value",
-          "Quantity",
-          "Package",
-          "Components",
-          "CustomPara"
-        ],
-        [
-          "25X48MM_NFC_ANTENNA",
-          2,
-          "25X48MM_NFC_ANTENNA",
-          "1,1",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "220nF",
-          2,
-          "C0603",
-          "C1,C1",
-          {
-            "Manufacturer Part": "CL10B224KA8NNNC",
-            "Manufacturer": "SAMSUNG(三星)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C21120"
-          }
-        ],
-        [
-          "whiteLEDSMD",
-          2,
-          "LED0805-R-RD",
-          "LED1,LED1",
-          {
-            "Manufacturer Part": "KT-0805W",
-            "Manufacturer": "KENTO",
-            "Supplier": "LCSC",
-            "Supplier Part": "C34499"
-          }
-        ],
-        [
-          "47Ω",
-          2,
-          "R0603",
-          "R1,R1",
-          {
-            "Manufacturer Part": "0603WAF470JT5E",
-            "Manufacturer": "UNI-ROYAL(厚声)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C23182"
-          }
-        ],
-        [
-          "TEST-POINT-PTH-1X1",
-          2,
-          "PKG-TEST-POINT-PTH-1X1",
-          "TP1,TP1",
-          {
-            "Manufacturer Part": "",
-            "Manufacturer": "",
-            "Supplier": "",
-            "Supplier Part": ""
-          }
-        ],
-        [
-          "NT3H2111W0FHKH",
-          2,
-          "XQFN-8_L1.6-W1.6-P0.50-BL",
-          "U1,U1",
-          {
-            "Manufacturer Part": "NT3H2111W0FHKH",
-            "Manufacturer": "NXP(恩智浦)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C710403"
-          }
-        ]
-      ],
-      "updateTime": 1721076385,
-      "createTime": 1721076141,
-      "histories": [],
-      "created_at": "2024-07-15 14:42:21",
-      "updated_at": "2024-07-15 14:46:25"
+      "updated_at": "2024-07-25 16:54:48"
     },
     {
       "uuid": "643ec929bc4be6c122c5d8daa3604f56",
@@ -233,9 +119,14 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "22f3598b2c14455b88e68e9633045857": 1,
+        "16e8ab48bb094d76b66d3c50533c0f75": 1,
         "8cd594796adb4024ae4e068ff4f67165": 1,
-        "16e8ab48bb094d76b66d3c50533c0f75": 1
+        "22f3598b2c14455b88e68e9633045857": 1,
+        "f8151fdc728a41ebbc304e11d39e5437": 1,
+        "82605a93a0be4c79a27d82f67f2aca29": 3,
+        "398691f1f785460098bbe5ee6590333c": 3,
+        "0b7f0a0a5b454963aee908ce21401e21": 1,
+        "c1649a696cc844e4984c4f99840e0f36": 2
       },
       "BOM": [
         [
@@ -306,11 +197,11 @@
           }
         ]
       ],
-      "updateTime": 1720228710,
+      "updateTime": 1721953029,
       "createTime": 1720145218,
       "histories": [],
       "created_at": "2024-07-04 20:06:58",
-      "updated_at": "2024-07-05 19:18:30"
+      "updated_at": "2024-07-25 18:17:09"
     }
   ],
   "sort": [
@@ -320,5 +211,5 @@
   "title": "business-card",
   "foldername": "business-card",
   "schfilename": "business-card.json",
-  "schfilemtime": 1721077758513
+  "schfilemtime": 1721948088052
 }
