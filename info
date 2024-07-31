@@ -4,7 +4,7 @@
   "name": "business-card",
   "content": "",
   "created_at": "2024-07-04 19:21:31",
-  "updated_at": "2024-07-25 18:17:09",
+  "updated_at": "2024-07-30 19:55:19",
   "stick": "",
   "documents": [
     {
@@ -16,11 +16,11 @@
       "thumb": "/images/thumb-default.png",
       "components": {
         "eb434b2d0361cebc504a90772dbca13c": 3,
-        "c8c2c558fac9410d08cd9c984c6e32bd": 3,
         "eb859b95857eb549dcd060c0a776a8f7": 1,
         "b69a0036c187498693d0993be12a5ea5": 1,
         "83750b9ec8e049408701bb76a50ed8f9": 1,
-        "cd55ef37e4214540a233ad188a806cfb": 2
+        "c8c2c558fac9410d08cd9c984c6e32bd": 3,
+        "cfe73b8addc146a2ad1d084d41c3e8d9": 2
       },
       "BOM": [
         [
@@ -55,10 +55,10 @@
           }
         ],
         [
-          "TEST-POINT-PTH-1X1",
+          "Test Point",
           2,
-          "PKG-TEST-POINT-PTH-1X1",
-          "GND,VOUT",
+          "1-POINT_TEST-POINT",
+          "GND,VCC",
           {
             "Manufacturer Part": "",
             "Manufacturer": "",
@@ -103,11 +103,11 @@
           }
         ]
       ],
-      "updateTime": 1721948088,
+      "updateTime": 1722015895,
       "createTime": 1720142491,
       "histories": [],
       "created_at": "2024-07-04 19:21:31",
-      "updated_at": "2024-07-25 16:54:48"
+      "updated_at": "2024-07-26 11:44:55"
     },
     {
       "uuid": "643ec929bc4be6c122c5d8daa3604f56",
@@ -119,14 +119,13 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
-        "16e8ab48bb094d76b66d3c50533c0f75": 1,
         "8cd594796adb4024ae4e068ff4f67165": 1,
-        "22f3598b2c14455b88e68e9633045857": 1,
-        "f8151fdc728a41ebbc304e11d39e5437": 1,
+        "16e8ab48bb094d76b66d3c50533c0f75": 1,
         "82605a93a0be4c79a27d82f67f2aca29": 3,
         "398691f1f785460098bbe5ee6590333c": 3,
-        "0b7f0a0a5b454963aee908ce21401e21": 1,
-        "c1649a696cc844e4984c4f99840e0f36": 2
+        "f8151fdc728a41ebbc304e11d39e5437": 1,
+        "c5675176f27a424a810e5e4d53040cec": 2,
+        "0b7f0a0a5b454963aee908ce21401e21": 1
       },
       "BOM": [
         [
@@ -197,11 +196,11 @@
           }
         ]
       ],
-      "updateTime": 1721953029,
+      "updateTime": 1722390919,
       "createTime": 1720145218,
       "histories": [],
       "created_at": "2024-07-04 20:06:58",
-      "updated_at": "2024-07-25 18:17:09"
+      "updated_at": "2024-07-30 19:55:19"
     }
   ],
   "sort": [
@@ -211,5 +210,5 @@
   "title": "business-card",
   "foldername": "business-card",
   "schfilename": "business-card.json",
-  "schfilemtime": 1721948088052
+  "schfilemtime": 1722015895215
 }
